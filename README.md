@@ -1,16 +1,16 @@
-### Как запустить проект:
+### How to run the project:
 
-Клонировать репозиторий и перейти в него в командной строке:
-
-```
-git clone https://github.com/yandex-praktikum/anfisa2sprint.git
-```
+Clone the repository and open it in the command-line interface:
 
 ```
-cd anfisa2sprint
+git clone https://github.com/tripleten-com/Iris4Friends
 ```
 
-Cоздать и активировать виртуальное окружение:
+```
+cd iris_for_friends
+```
+
+Create and activate a virtual environment:
 
 Windows
 ```
@@ -23,7 +23,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Обновить PIP
+Refresh PIP
 
 Windows
 ```
@@ -34,13 +34,13 @@ Linux/macOS
 python3 -m pip install --upgrade pip
 ```
 
-Установить зависимости из файла requirements.txt:
+Install the dependencies from the requirements.txt file:
 
 ```
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Run migrations:
 
 Windows
 ```
@@ -54,7 +54,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-Запустить проект:
+Run the project:
 
 Windows
 ```

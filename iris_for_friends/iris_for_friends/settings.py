@@ -32,7 +32,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'anfisa_for_friends.urls'
+ROOT_URLCONF = 'iris_for_friends.urls'
 
 TEMPLATES_DIR = BASE_DIR / 'templates'
 
@@ -52,7 +52,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'anfisa_for_friends.wsgi.application'
+WSGI_APPLICATION = 'iris_for_friends.wsgi.application'
 
 
 DATABASES = {

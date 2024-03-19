@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Ejecutar tareas administrativas."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'anfisa_for_friends.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iris_for_friends.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

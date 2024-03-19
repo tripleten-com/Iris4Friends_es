@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'anfisa_for_friends.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iris_for_friends.settings')
 
 application = get_asgi_application()
